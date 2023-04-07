@@ -1,0 +1,17 @@
+import math , os
+os.system('cls')
+
+x = float(input("Digite a coordenada x do ponto P: "))
+y = float(input("Digite a coordenada y do ponto P: "))
+
+
+if x > 0 and y > 0:
+    print("O ponto P está no primeiro quadrante.")
+elif x < 0 and y > 0:
+    print("O ponto P está no segundo quadrante.")
+elif x < 0 and y < 0:
+    print("O ponto P está no terceiro quadrante.")
+elif x > 0 and y < 0:
+    print("O ponto P está no quarto quadrante.")
+else:
+    print("O ponto P está sobre um dos eixos.")
