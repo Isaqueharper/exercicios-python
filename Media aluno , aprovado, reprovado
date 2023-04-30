@@ -1,4 +1,4 @@
-import math , os
+import math ,os
 os.system('cls')
 
 n1 = float(input('Digite a nota 1: '))
